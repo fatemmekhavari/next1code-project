@@ -6,13 +6,6 @@ body{
     font-family: 'B Yekan', tahoma, Arial;
 }
 
-.header , .footer{
-    height: 100px;
-    background: gray;
-    font-size: 45px;
-    text-align: center;
-}
-
 /* ------color------ */
 .orange{
     background: orange;
@@ -89,3 +82,32 @@ body{
 .p-bot70{
     padding-bottom: 70px;
 }
+
+
+.menu{
+    height: 100px;
+    padding-top: 20px;
+}
+ul{
+    list-style-type: none;
+}
+li{
+    display: inline-block;
+    padding: 15px;
+}
+.image{
+    height: 400px;
+    background-color: rgb(211, 163, 74);
+    background-blend-mode: multiply;
+    background-image: url("/images/page-bg.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    color: #fff;
+    padding-top: 80px;
+}
+i{
+    font-size: 200px;
+}
+
